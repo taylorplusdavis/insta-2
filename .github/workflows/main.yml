@@ -15,6 +15,6 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: ftp.taylorpauldavis.com
-          username: u961510057
+          username: u961510057.taylorpd94
           password: tpdLSU2017
           server-dir: /home/u961510057/domains/taylorpauldavis.com/public_html/
