@@ -17,4 +17,4 @@ jobs:
           server: ftp.taylorpauldavis.com
           username: u961510057
           password: tpdLSU2017
-          server-dir: /home/u961510057/domains/taylorpauldavis.com/public_html
+          server-dir: /home/u961510057/domains/taylorpauldavis.com/public_html/
