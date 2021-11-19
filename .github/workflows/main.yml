@@ -15,6 +15,6 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: ns1.dns-parking.com
-          username: git
+          username: u961510057
           password: b#P9#H5ab2#L
           server-dir: /public_html/taylorpauldavis.com/
