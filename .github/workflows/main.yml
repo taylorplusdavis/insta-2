@@ -13,7 +13,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: http://taylorpauldavis.com
+          server: ns1.dns-parking.com
           username: git
           password: b#P9#H5ab2#L
           server-dir: /public_html/taylorpauldavis.com/
