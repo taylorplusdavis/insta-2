@@ -13,7 +13,7 @@ function signIn({ providers }) {
           alt="logo"
         />
         <p className="italic font-bold">
-          Not a real app, it is for educational purposes only.
+          Not a real app, it is for educational purposes only..
         </p>
         {Object.values(providers).map((provider) => (
           <div key={provider.name}>
