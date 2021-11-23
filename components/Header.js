@@ -59,21 +59,21 @@ function Header() {
         </div>
 
         {/* Right */}
-        <div className="flex items-center justify-end space-x-4">
+        <div className="flex items-center">
           {session ? (
-            <>
+            <div className="relative flex items-center justify-end space-x-1 md:space-x-4 -ml-2">
               <HomeIcon className="navButton" />
               <div className="relative navButton">
                 <PaperAirplaneIcon className="navButton rotate-45" />
-                <div className="absolute -top-1 -right-2 text-xs w-5 h-5 bg-red-600 rounded-full flex items-center justify-center animate-pulse text-white">
+                <div className="absolute navButton -top-1 -right-2 text-xs w-5 h-5 bg-red-600 rounded-full flex items-center justify-center animate-pulse text-white">
                   3
                 </div>
               </div>
-              <MenuIcon className="h-6 md:hidden cursor-pointer" />
               <PlusCircleIcon
                 onClick={() => setOpen(!open)}
-                className="navButton"
+                className="navButtonNotHidden h-12 md:h-6"
               />
+              <MenuIcon className="h-12 md:hidden cursor-pointer" />
               <UserGroupIcon className="navButton" />
               <HeartIcon className="navButton" />
               <img
@@ -82,7 +82,7 @@ function Header() {
                 src={session.user.image}
                 alt="profile pic"
               />
-            </>
+            </div>
           ) : (
             <>
               <HomeIcon className="navButton inline" />

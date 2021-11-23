@@ -7,6 +7,10 @@
     @apply hidden h-6 md:inline-flex cursor-pointer hover:scale-125 transition-all duration-150 ease-out;
   }
 
+  .navButtonNotHidden {
+    @apply h-6 cursor-pointer hover:scale-125 transition-all duration-150 ease-out;
+  }
+
   .iconButton {
     @apply w-6 h-6 cursor-pointer hover:scale-125 transition-all duration-150 ease-out;
   }
